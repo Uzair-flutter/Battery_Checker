@@ -4,12 +4,22 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+# Battery Checker Flutter Plugin
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A simple Flutter plugin to check the battery level on Android devices.
+
+## Features
+
+- Get the current **battery level** as a percentage.
+- Retrieve **platform version** (Android version).
+
+## Installation
+
+To install the plugin, add the following to your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  battery_checker:
+    git:
+      url: https://github.com/Uzair-flutter/Battery_Checker.git
 
